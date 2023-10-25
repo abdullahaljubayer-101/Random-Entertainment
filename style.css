@@ -1,0 +1,53 @@
+* {
+  background-color: white;
+  border: 0;
+  margin: 0;
+}
+
+.container {
+  width: 340px;
+  height: 500px;
+}
+
+.joke_container {
+  margin: 20px;
+}
+
+.jokeElement {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.meme_container {
+  margin: 20px;
+}
+
+.memeElement {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.generate_button {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 26px;
+  margin: 10px 110px 10px 110px;
+  background-color: rgb(190, 190, 190);
+}
+
+.generate_button:hover {
+  background-color: gray;
+}
+
+.copy_button,
+.download_button {
+  cursor: text;
+  color: blue;
+  border-bottom: 1px solid blue;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 10px;
+}

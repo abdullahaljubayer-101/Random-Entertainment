@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Random Entertainment</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- joke -->
+      <div id="joke_container" class="joke_container">
+        <p id="jokeElement" class="jokeElement">Loading...</p>
+        <input
+          id="copy_button"
+          class="copy_button"
+          type="submit"
+          value="Copy"
+        />
+      </div>
+
+      <!-- meme -->
+      <div id="meme_container" class="meme_container">
+        <img id="memeElement" class="memeElement" src="loading.gif" />
+        <input
+          id="download_button"
+          class="download_button"
+          type="submit"
+          value="Download"
+        />
+      </div>
+
+      <!-- generate -->
+      <input
+        id="generate_button"
+        class="generate_button"
+        type="submit"
+        value="Generate"
+      />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
